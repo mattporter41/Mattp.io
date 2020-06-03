@@ -16,24 +16,29 @@
 
  <div class="top">
 
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;open</span>
 
 <center><p>photo of me</p></center>
 
- <center><h1>hello and welcome</h1></center>
+ <center><h1>Hello and welcome</h1></center>
 
 </div>
+
+
+<center><p>this site is about me as person and my accomplishments and aspiriations within coding</p></center>
+
+
 <br>
 <br>
 <br> 
 
 <div class="me">
 
-<h1>about me</h1>
+<center><h1>About me</h1></center>
 
 </div>
 
-
-<p>this site is about me as person and my accomplishments and aspiriations within coding</p>
+<br>
 
 
 <div class="dropdown1">
@@ -52,13 +57,44 @@
 
 <div class="links">
 
-<h1>links to my work</h1>
+<center><h1>Links to my work</h1></center>
+</div>
+
+<br>
+
+<div class="dropdown2">
+<button class="dropbtn2">
+<div class="dropdown-content2">
+
+<a href="#"> link a </a> 
+<a href="#"> link b </a>
+<a href="#"> link c </a>
+
+</button>
+</div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+ <a href="#">Art work</a>
+ <a href="#">Games</a>
+</div>
+
+<div class="main"> 
 
 </div>
 
-<li>link a</li>
-<li>link b</li>
-<li>link c</li>
+<script>
+
+function openNav(){
+ document.getElementById("mySidenav").style.width ="170px";
+}
+
+function closeNav(){
+ document.getElementById("mySidenav").style.width ="0px";
+}
+</script>
 
 </body>
 
